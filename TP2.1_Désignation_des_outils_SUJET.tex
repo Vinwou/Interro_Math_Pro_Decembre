@@ -23,7 +23,7 @@
 \usepackage{marginnote} % Required for margin notes
 \usepackage{wallpaper} % Required to set each page to have a background
 \usepackage[francais]{babel}
-%\usepackage{bclogo}
+
 \usepackage{tikz}
 \usetikzlibrary{shapes,snakes}
 \usetikzlibrary{mindmap,trees}
@@ -72,9 +72,9 @@
 %----------------------------------------------------------------------------------------
 %	HEADER INFORMATION
 %----------------------------------------------------------------------------------------
-\fancyhead[L]{\begin{center}\textbf{Interrogation - Mathématiques Professionnels}\end{center} 
+\fancyhead[L]{\begin{center}\textbf{Interrogation - Mathématiques Professionnelles}\end{center} 
 \begin{tabular}{l r | l r} 
-\textbf{Sujet} & Interrogation final Math Pro  & M.Chevalier M.Chartier \\ 
+\textbf{Sujet} & DS de fin de séquence  & M.Chevalier M.Chartier \\ 
 \textbf{BTS} & CPRP 1 & \the\year-2023 & Page : \thepage/\pageref{LastPage} \\ 
 \end{tabular}}
 %----------------------------------------------------------------------------------------
@@ -105,15 +105,14 @@
 %	DOCUMENT CONTENT
 %----------------------------------------------------------------------------------------
 
-
-
-
-
-\begin{tcolorbox}[colback=blue!5!white,colframe=black!75!black] 
-Nom : \hspace{6,5cm} Prénom : \\
+\begin{tcolorbox}[colback=white!5!white,colframe=black!75!black] 
+\begin{center}  \bcattention \end{center} 
+\footnotesize{Clarté \&  propreté rédactionnelle $\pm{1}$ pt.}\\
+Attention aux UNITÉS.\\
+Toutes les valeurs que vous trouverez, seront arrondis à deux chiffres après la virgule maximum.\\
+Gérez bien votre temps et n'en perdez pas trop sur la même questions.
+\begin{center}  \bcattention \end{center} 
 \end{tcolorbox} 
-
-\footnotesize{Clarté \&  propreté rédactionnelle $\pm{3}$ pts}
 
 
 \section{Fractions}
@@ -131,9 +130,6 @@ $\frac{4}{7}+\frac{4}{21}$
     \item $2 - \frac{8}{5}$
 \end{enumerate} }
 \[d)\genfrac{}{}{0.5pt}{0}{\mbox{\phantom{xxx}}\dfrac{3}{5} \mbox{\phantom{xxx}}}{\dfrac{9}{3}}\]
-
-
-
 
 \section{Équations du premier degré}
 
@@ -183,44 +179,68 @@ $$
 $$
 
 \section{Surface et volume}
-
-
-
-\section{Trigonométrie}
-
-
+\begin{exo} Calculez la surface de la forme suivante.\end{exo}
 \begin{center}
-\includegraphics[scale=0.4]{logo.png}
+\includegraphics[scale=0.6]{M1.png}
 \end{center}
 
-\begin{exo} Calculez les différentes fractions suivantes en gardant la forme $\frac{a}{b}$.\end{exo}
+
+\begin{exo} Calculez la surface grise de la forme suivante.\end{exo}
+\begin{center}
+\includegraphics[scale=0.6]{R1.png}
+\end{center}
+
+\section{Trigonométrie \& triangles}
+\begin{exo} Calculez la diagonale du rectangle suivant.\end{exo}
+\begin{center}
+\includegraphics[scale=0.6]{rec1.png}
+\end{center}
+
+\begin{exo} Calculez l'hypoténuse du triangle suivant.\end{exo}
+\begin{center}
+\includegraphics[scale=0.6]{tri1.png}
+\end{center}
 
 
+\subsection*{Triangle quelconque}
+\marginnote{Vous pouvez faire des annotations sur votre copie pour vous aider}
+Soit le triangle ABD quelconque. On connaît AD, AB et l'angle $\alpha$.
+\begin{center}
+\includegraphics[scale=0.5]{Q1.png}
+\end{center}
+
+On décompose donc le triangle quelconque ABD en 2 triangles rectangles ABC et BCD.\\
+\begin{tcolorbox}[colback=blue!5!white,colframe=black!75!black] 
+Rappel : Dans un triangle rectangle on a les données suivantes :\\
+Théorème de Pythagore : somme des carrés des cotés égal au carré de l’hypoténuse.\\
+Utilisation des lignes trigonométriques : sinus, cosinus et tangente.\\
+\end{tcolorbox}
 
 
+\begin{exo} Dans le triangle ABC calculez BC (= h, la hauteur) et AC.\end{exo}
 
+\begin{exo} D'après la question précédente, calculez CD.\end{exo}
 
-\marginnote{0,25 pt}
-\begin{tikzpicture}
-\draw (0,0) -- (0,2) ;
-\draw (0,2) -- (15,2) ;
-\draw (15,2) -- (15,0) ;
-\draw (15,0) -- (0,0) ;
-\draw (0.2,1.9) node [anchor=north west][inner sep=0.75pt]   [align=left] {QUANTITÉ};
-\end{tikzpicture}
+\begin{exo} Dans le triangle BCD déduisez la longueur BD.\end{exo}
 
+\begin{exo} Dans le triangle BCD déduisez la valeur de l'angle $\gamma$.\end{exo}
 
+\begin{exo} Dans le triangle ABD déduisez la valeur de l'angle $\beta$.\end{exo}
 
-\section{Application 1}
+\newpage
+
+\section{Commande matière}
 \begin{tcolorbox}[colback=blue!5!white,colframe=black!75!black] 
 Dans un atelier, vous disposez des données ci-dessous.\\
 Inscrivez les calculs nécessaires pour en déduire le prix de la barre.
 \end{tcolorbox}
 \includegraphics[scale=1]{Barre.png}
 
+\begin{exo} Calculez le prix de la barre ci-dessus.\end{exo}
 
-\marginnote{0,25 pt}
-Réponse : 
+\begin{center}
+    FIN DU DS
+\end{center}
 
 
 %----------------------------------------------------------------------------------------
